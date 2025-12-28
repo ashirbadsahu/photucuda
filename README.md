@@ -5,6 +5,7 @@ GPU-accelerated image filters using CUDA and 2D convolution for high-performance
 ## Features
 
 - **Gaussian Blur Filter**: Applies a Gaussian blur to reduce image noise and detail, commonly used for smoothing images.
+- **Highpass Filter**: Applies a Highpass filter, commonly used for edge detection. 
 
 ## Prerequisites
 
@@ -41,6 +42,7 @@ Run the executable with an input image and a filter name:
 ### Available Filters
 
 - `gb`: Gaussian Blur
+- `hp`: Highpass
 
 ### Example
 
@@ -48,7 +50,7 @@ Run the executable with an input image and a filter name:
 ./photucuda input.png gb
 ```
 
-This will apply the Gaussian blur filter to `input.png` and save the result as `output_gray.png`.
+This will apply the Gaussian blur filter to `input.png` and save the result as `output_gray_<filter>.png`(e.g. `output_gray_gb.png`).
 
 ## License
 

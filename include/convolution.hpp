@@ -2,7 +2,13 @@
 #include "image_io.hpp"
 
 enum class FilterType{
-    GAUSSIAN
+    GAUSSIAN,
+    HIGHPASS
+};
+
+enum OutputMode{
+  NORMAL,
+  ABS_CLAMP
 };
 
 void apply_filter(const Image& input, Image& output, FilterType filter);
