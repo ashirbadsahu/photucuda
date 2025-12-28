@@ -19,7 +19,7 @@ GPU-accelerated image filters using CUDA and 2D convolution for high-performance
 
 1. Clone the repository:
 ```bash
-   git clone <repository-url>
+   git clone https://github.com/ashirbadsahu/photucuda.git
    cd photucuda
 ```
 
